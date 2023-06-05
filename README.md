@@ -29,16 +29,16 @@ To Run
 
 For executing final_filter_unlearnable.py goto "." and run
 
-'''
+```
 python final_filter_unlearnable.py --arch='resnet18' --dataset='cifar10' --train-type='adv' \
 --blur-parameter=0.3 --seed=0 --pgd-norm='linf' --pgd-steps=10 --pgd-radius=0.015 --mix=1.0 \
 --name='results/resnet18_cifar10_adv_bp=0.3_linf_eps=4_steps=10_seed0_mix=1.0.pkl'
-'''
+```
 
 Above code will perform L_{\infty} adversarial training with CUDA CIFAR-10 dataset using ResNet-18.
 
 For executing DAT, goto "." and run
 
-'''
+```
 python final_muladv.py
-'''
+```
