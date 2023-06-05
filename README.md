@@ -1,5 +1,5 @@
 # CUDA: Convolution-based Unlearnable Datasets (CVPR 2023)
-## Authors: Vinu Sankar Sadasivan, Mahdi Soltanolkotabi, Soheil Feizi
+#### Authors: Vinu Sankar Sadasivan, Mahdi Soltanolkotabi, Soheil Feizi
 
 Paper: https://arxiv.org/abs/2303.04278
 
